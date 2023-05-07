@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "store/root-saga.js",
+    "src/pages/login.jsx",
+    "components/layout.tsx",
+    "components/access.js",
+    "src/pages/api/auth/[...nextauth].js",
+    "src/pages/loginjtsx",
+    "src/pages/quiz.jsx",
+    "store/store.js"
+  ],
+  "exclude": ["node_modules"]
+}

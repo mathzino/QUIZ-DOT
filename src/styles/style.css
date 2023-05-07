@@ -1,0 +1,30 @@
+.customscrollbar__bar::after {
+  margin-top: 100px;
+}
+.customscrollbar__bar::-webkit-scrollbar {
+  height: 6px;
+  background-color: #f5f5f5;
+}
+.customscrollbar__bar::-webkit-scrollbar-button {
+  max-width: 1px;
+  display: none;
+}
+.customscrollbar__bar::-webkit-scrollbar-track {
+  max-width: 1px;
+  background: white;
+}
+.customscrollbar__bar::-webkit-scrollbar-track-piece {
+  width: 1px;
+  max-width: 1px;
+}
+.customscrollbar__bar::-webkit-scrollbar-thumb {
+  background-color: rgba(217, 217, 217, 0.51);
+
+  width: 1px;
+  border-radius: 10px;
+}
+.customscrollbar__bar::-webkit-scrollbar-corner {
+}
+.customscrollbar__bar::-webkit-resizer {
+  width: 1px;
+}
